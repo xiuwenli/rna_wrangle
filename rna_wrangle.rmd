@@ -42,7 +42,7 @@ plot(density(log2(genes$KITA_01[(genes$KITA_01>0)])))
 d <- density(genes$KITA_03)
 plot(d)
 plot(density(log2(genes$KITA_03[(genes$KITA_03>0)])))
-plot(log2(genes$KITA_01[(genes$KITA_01>0 |genes$KITA_03>0 )]),log2(genes$KITA_03[(genes$KITA_01>0 |genes$KITA_03>0 )]))
+plot(log2(genes$KITA_01[(genes$KITA_01>10 |genes$KITA_03>10 )]),log2(genes$KITA_03[(genes$KITA_01>10 |genes$KITA_03>10 )]))
 ```
 
 ```{r}
